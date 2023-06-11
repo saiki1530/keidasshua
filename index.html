@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+    <article>
+        <div class="anh">
+            <img src="img/file1.gif" alt="">
+        </div>
+        <div id="rps">
+            <div class="font-top">
+                <h2 class="font-1">THIẾT KẾ GAME</h2>
+                <h1 class="font-2">KEI DASSHU</h1>
+                <P class="font-3">Đỉnh cao công nghệ, nơi hội tụ các chiến binh <br>
+                    Chỉ cần bạn muốn chúng tôi sẽ đáp ứng</P>
+            </div>
+            <canvas id="myCanvas" width="800px" height="180px">
+            </canvas>
+        </div>
+        <script>
+            /*****khung-1*****/
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.strokeStyle = "#caff00";
+            ctx.strokeRect(352, 20, 0, 20);
+            ctx.lineWidth = 2;
+
+            var d = document.getElementById("myCanvas");
+            var dtx = d.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(0, 20);
+            ctx.lineTo(0, 165);/**thanh dọc 1**/
+            ctx.lineTo(15, 165);/*thanh ngang dưới 1*/
+
+            ctx.moveTo(352, 144);/*thanh dọc dưới 1.2*/
+            ctx.lineTo(352, 165);
+
+            ctx.moveTo(352, 20);/*thanh ngang trên 1**/
+            ctx.lineTo(185, 20);
+
+            ctx.moveTo(508, 145);/*thanh ngang dưới 2**/
+            ctx.lineTo(200, 145);
+
+            ctx.moveTo(508, 40);/*thanh ngang trên 2**/
+            ctx.lineTo(200, 40);
+
+            ctx.moveTo(0, 20);/**thanh ngang trên 1**/
+            ctx.lineTo(75, 20);
+
+            ctx.moveTo(288, 166);/*thanh ngang dưới 1**/
+            ctx.lineTo(353, 166);
+            ctx.strokeStyle = "#caff00";
+            ctx.stroke();
+            /*******khung-2*******/
+            ctx.strokeRect(200, 40, 0, 23);
+            ctx.strokeRect(508, 40, 0, 23);
+            ctx.beginPath();
+            ctx.strokeRect(200, 128, 0, 17);
+            ctx.strokeRect(508, 128, 0, 18);
+            ctx.beginPath();
+
+        </script>
+
+        <div class="header-top navbar-fixed-top">
+            <div class="menu-top">
+
+                <a href="index.html" id="keidasshu">
+                    <img id="kei-img" src="img/non.png" width="11%" alt="">
+                    <h1 id="kei">KEI DASSHU
+                    </h1>
+                </a>
+
+
+                <!-- <li><a href="" class="logo">KEI DASSHU</a></li> -->
+                <li id="trangchu"><a href="#" class="activee">TRANG CHỦ</a></li>
+                <li><a href="duan.html">DỰ ÁN</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                <li><a href="login.html" target="_blank">TÀI KHOẢN</a></li>
+            </div>
+
+        </div>
+        <div class="duan-body">
+            <div class="duan">
+                <img src="img/new.png" alt="" width="80%" />
+            </div>
+            <div class="font-body">
+                <span style="color: #adadad; font-size: 16px;">Dự Án Mới Nhất</span><br> <br>
+                <span class="bob">Battle of Braves <br> PlayStation | 2023</span><br>
+                <span style="color: greenyellow; font-size: 16px; opacity:0.5">By Quang Sang</span>
+                <a href="">
+                    <p class="xg">Xem game</p>
+                </a>
+                <div id="comp-kpf47s00" style="margin-top:0%">
+                    <!-- code ảnh -->
+                    <div data-testid="svgRoot-comp-kpf47s00" class="_3bLYT _2OIRR">
+                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141"
+                            viewBox="12.335 29.5 172.265 141" height="20" width="20" xmlns="http://www.w3.org/2000/svg"
+                            data-type="color" role="presentation" aria-hidden="true"
+                            aria-labelledby="svgcid-ki8r1oj8j0dp" style="margin-left: 88px; margin-top:25px ">
+                            <defs>
+
+                            </defs>
+                            <title id="svgcid-ki8r1oj8j0dp"></title>
+                            <g>
+                                <path
+                                    d="M114.1 170.5c-30.2 0-57-19.2-66.7-47.8-.5-1.6.3-3.3 1.9-3.8 1.6-.5 3.3.3 3.8 1.9 8.9 26.1 33.4 43.7 61 43.7 35.5 0 64.5-28.9 64.5-64.5 0-35.5-28.9-64.5-64.5-64.5-27.6 0-52.1 17.6-61 43.7-.5 1.6-2.2 2.4-3.8 1.9-1.6-.5-2.4-2.2-1.9-3.8 9.7-28.6 36.5-47.8 66.7-47.8 38.9 0 70.5 31.6 70.5 70.5s-31.6 70.5-70.5 70.5z"
+                                    fill="#f6f3ed" data-color="1"></path>
+                                <path
+                                    d="M146.1 97.9l-35-35c-1.2-1.2-3.1-1.2-4.2 0-1.2 1.2-1.2 3.1 0 4.2l27.4 27.4c.9.9.3 2.5-1 2.5H15.5c-1.5 0-2.8 1-3.1 2.4-.4 1.9 1.1 3.6 2.9 3.6h117.9c1.3 0 1.9 1.6 1 2.5l-27.4 27.4c-1.2 1.2-1.2 3.1 0 4.2.6.6 1.4.9 2.1.9s1.5-.3 2.1-.9l35-35c1.3-1.1 1.3-3 .1-4.2z"
+                                    fill="#000000" data-color="2"></path>
+                            </g>
+                        </svg>
+                    </div>
+
+                </div>
+                <div id="duan-shw">
+                    <div class="duan-show">
+                        <img src="img/lo.png" alt="" width="200%" style="margin-top: -66%; margin-left: -106%;">
+                    </div>
+                    <div class="duan-font">
+                        <h2>DỰ ÁN CỦA TÔI</h2>
+                        <hr id="hr">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="vien"><img src="img/33.webp" alt=""></div>
+
+    </article>
+    <main>
+        <div class="sp-1" style="z-index: 16;">
+
+            <div class="font">
+                <span style="margin-left:-1.3% ; font-size:26px;"><strong>|</strong></span><br>
+                <span style="margin-left:-1.3% ; font-size:26px;">|</strong></span> <br><br>
+                <span style="margin-left:-2.2% ; font-size:46px;"><strong>01</strong></span>
+                <div class="font-1 rotate">
+                    <span>SINH TỒN BẮN SÚNG CAO ĐỘ</span>
+                </div>
+                <div class="image1">
+                    <img src="img/c837a6_07e1753799414600a39507515f62f40a_mv2 (1).webp" width="85%" height="500px"
+                        alt="">
+                    <img src="img/33.webp" style="margin-top:-100% ;" alt="">
+                </div>
+                <div class="font-2" style="margin-left: 20%;">
+                    <div id="comp-kpf47s00" class="">
+                        <!-- code ảnh -->
+                        <div data-testid="svgRoot-comp-kpf47s00" class="_3bLYT _2OIRR">
+                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141"
+                                viewBox="12.335 29.5 172.265 141" height="40" width="40"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                aria-hidden="true" aria-labelledby="svgcid-ki8r1oj8j0dp"
+                                style="margin-left: 345%; margin-top:-5% ">
+                                <defs>
+
+                                </defs>
+                                <title id="svgcid-ki8r1oj8j0dp"></title>
+                                <g>
+                                    <path
+                                        d="M114.1 170.5c-30.2 0-57-19.2-66.7-47.8-.5-1.6.3-3.3 1.9-3.8 1.6-.5 3.3.3 3.8 1.9 8.9 26.1 33.4 43.7 61 43.7 35.5 0 64.5-28.9 64.5-64.5 0-35.5-28.9-64.5-64.5-64.5-27.6 0-52.1 17.6-61 43.7-.5 1.6-2.2 2.4-3.8 1.9-1.6-.5-2.4-2.2-1.9-3.8 9.7-28.6 36.5-47.8 66.7-47.8 38.9 0 70.5 31.6 70.5 70.5s-31.6 70.5-70.5 70.5z"
+                                        fill="#f6f3ed" data-color="1"></path>
+                                    <path
+                                        d="M146.1 97.9l-35-35c-1.2-1.2-3.1-1.2-4.2 0-1.2 1.2-1.2 3.1 0 4.2l27.4 27.4c.9.9.3 2.5-1 2.5H15.5c-1.5 0-2.8 1-3.1 2.4-.4 1.9 1.1 3.6 2.9 3.6h117.9c1.3 0 1.9 1.6 1 2.5l-27.4 27.4c-1.2 1.2-1.2 3.1 0 4.2.6.6 1.4.9 2.1.9s1.5-.3 2.1-.9l35-35c1.3-1.1 1.3-3 .1-4.2z"
+                                        fill="#000000" data-color="2"></path>
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <a href="">
+                        <h1 style="margin-top: -200px;">BARLOG</h1>
+                    </a>
+                    <br><br>
+                    <h3 style="margin-top: -180px;">THIẾT KẾ</h3>
+                    <p>Tôi là đoạn văn. Nhấp vào đây để thêm văn bản và chỉnh sửa. Dễ thôi,<br>
+                        Chỉ cần nhấp vào “Chỉnh sửa văn bản” hoặc nhấp đúp để thêm nội <br>
+                        dung và thay đổi phông chữ. Tôi là nơi tuyệt vời để bạn kể một câu <br>
+                        chuyện và cho người dùng biết thêm về bạn.</p>
+                </div>
+                <div class="btn">
+                    <button>Xem game</button>
+                </div>
+            </div>
+        </div>
+        <hr width="100%" style="margin-top:118%;">
+        <div class="sp-1 s2" style="z-index: 15;">
+
+            <div class="font">
+                <span style="margin-left:-1.3% ; font-size:26px;"><strong
+                        style="margin-left: -4px; font-size: 30px;display: block;"><br> |</strong></span>
+                <span style="margin-left:-1.3% ; font-size:26px;"><strong
+                        style="margin-left: 10px; font-size: 30px;line-height: 0;">|</strong></span> <br><br>
+                <span style="margin-left:-2.2% ; font-size:46px;"><strong>02</strong></span>
+                <div class="font-1 rotate" style="margin-top:-32%">
+                    <span> NHẬP VAI HÀNH ĐỘNG </span>
+                </div>
+                <div class="image2">
+                    <img src="img/b2.webp" width="85%" height="500px" alt="">
+                    <img src="img/33.webp" style="margin-top:-100% ;" alt="">
+                </div>
+                <div class="font-2" style="margin-left: 20%;">
+                    <div id="comp-kpf47s00" class="">
+                        <!-- code ảnh -->
+                        <div data-testid="svgRoot-comp-kpf47s00" class="_3bLYT _2OIRR">
+                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141"
+                                viewBox="12.335 29.5 172.265 141" height="40" width="40"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                aria-hidden="true" aria-labelledby="svgcid-ki8r1oj8j0dp"
+                                style="margin-left: 675%; margin-top:-5% ">
+                                <defs>
+
+                                </defs>
+                                <title id="svgcid-ki8r1oj8j0dp"></title>
+                                <g>
+                                    <path
+                                        d="M114.1 170.5c-30.2 0-57-19.2-66.7-47.8-.5-1.6.3-3.3 1.9-3.8 1.6-.5 3.3.3 3.8 1.9 8.9 26.1 33.4 43.7 61 43.7 35.5 0 64.5-28.9 64.5-64.5 0-35.5-28.9-64.5-64.5-64.5-27.6 0-52.1 17.6-61 43.7-.5 1.6-2.2 2.4-3.8 1.9-1.6-.5-2.4-2.2-1.9-3.8 9.7-28.6 36.5-47.8 66.7-47.8 38.9 0 70.5 31.6 70.5 70.5s-31.6 70.5-70.5 70.5z"
+                                        fill="#f6f3ed" data-color="1"></path>
+                                    <path
+                                        d="M146.1 97.9l-35-35c-1.2-1.2-3.1-1.2-4.2 0-1.2 1.2-1.2 3.1 0 4.2l27.4 27.4c.9.9.3 2.5-1 2.5H15.5c-1.5 0-2.8 1-3.1 2.4-.4 1.9 1.1 3.6 2.9 3.6h117.9c1.3 0 1.9 1.6 1 2.5l-27.4 27.4c-1.2 1.2-1.2 3.1 0 4.2.6.6 1.4.9 2.1.9s1.5-.3 2.1-.9l35-35c1.3-1.1 1.3-3 .1-4.2z"
+                                        fill="#000000" data-color="2"></path>
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <a href="">
+                        <h1 style="margin-top: -200px;">Flagship mountain</h1>
+                    </a>
+                    <br><br>
+                    <h3 style="margin-top: -180px;">ĐỘC LẬP</h3>
+                    <p>Tôi là đoạn văn. Nhấp vào đây để thêm văn bản và chỉnh sửa. Dễ thôi,<br>
+                        Chỉ cần nhấp vào “Chỉnh sửa văn bản” hoặc nhấp đúp để thêm nội <br>
+                        dung và thay đổi phông chữ. Tôi là nơi tuyệt vời để bạn kể một câu <br>
+                        chuyện và cho người dùng biết thêm về bạn.</p>
+                </div>
+                <div class="btn">
+                    <button>Xem game</button>
+                </div>
+            </div>
+        </div>
+        <hr width="100%" style="margin-top:172%;">
+        <div class="sp-1 s3" style="z-index: 14;">
+
+            <div class="font">
+                <span style="margin-left:-1.3% ; font-size:26px;"><strong
+                        style="margin-left: -4px; font-size: 30px;display: block;"><br> |</strong></span>
+                <span style="margin-left:-1.3% ; font-size:26px;"><strong
+                        style="margin-left: 10px; font-size: 30px;line-height: 0;">|</strong></span> <br><br>
+                <span style="margin-left:-2.2% ; font-size:46px;"><strong>03</strong></span>
+                <div class="font-1 rotate" style="margin-top:-30%">
+                    <span>CHIẾN THUẬT ĐẤU TRÍ</span>
+                </div>
+                <div class="image3">
+                    <img src="img/b3.webp" width="85%" height="500px" alt="">
+                    <img src="img/33.webp" style="margin-top:-100% ;" alt="">
+                </div>
+                <div class="font-2" style="margin-left: 20%;">
+                    <div id="comp-kpf47s00" class="">
+                        <!-- code ảnh -->
+                        <div data-testid="svgRoot-comp-kpf47s00" class="_3bLYT _2OIRR">
+                            <svg preserveAspectRatio="xMidYMid meet" data-bbox="12.335 29.5 172.265 141"
+                                viewBox="12.335 29.5 172.265 141" height="40" width="40"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                aria-hidden="true" aria-labelledby="svgcid-ki8r1oj8j0dp"
+                                style="margin-left: 390%; margin-top:-8% ">
+                                <defs>
+
+                                </defs>
+                                <title id="svgcid-ki8r1oj8j0dp"></title>
+                                <g>
+                                    <path
+                                        d="M114.1 170.5c-30.2 0-57-19.2-66.7-47.8-.5-1.6.3-3.3 1.9-3.8 1.6-.5 3.3.3 3.8 1.9 8.9 26.1 33.4 43.7 61 43.7 35.5 0 64.5-28.9 64.5-64.5 0-35.5-28.9-64.5-64.5-64.5-27.6 0-52.1 17.6-61 43.7-.5 1.6-2.2 2.4-3.8 1.9-1.6-.5-2.4-2.2-1.9-3.8 9.7-28.6 36.5-47.8 66.7-47.8 38.9 0 70.5 31.6 70.5 70.5s-31.6 70.5-70.5 70.5z"
+                                        fill="#f6f3ed" data-color="1"></path>
+                                    <path
+                                        d="M146.1 97.9l-35-35c-1.2-1.2-3.1-1.2-4.2 0-1.2 1.2-1.2 3.1 0 4.2l27.4 27.4c.9.9.3 2.5-1 2.5H15.5c-1.5 0-2.8 1-3.1 2.4-.4 1.9 1.1 3.6 2.9 3.6h117.9c1.3 0 1.9 1.6 1 2.5l-27.4 27.4c-1.2 1.2-1.2 3.1 0 4.2.6.6 1.4.9 2.1.9s1.5-.3 2.1-.9l35-35c1.3-1.1 1.3-3 .1-4.2z"
+                                        fill="#000000" data-color="2"></path>
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <a href="">
+                        <h1 style="margin-top: -200px;">TOKI TOP</h1>
+                    </a>
+                    <br><br>
+                    <h3 style="margin-top: -180px;">ĐỘC LẬP</h3>
+                    <p>Tôi là đoạn văn. Nhấp vào đây để thêm văn bản và chỉnh sửa. Dễ thôi,<br>
+                        Chỉ cần nhấp vào “Chỉnh sửa văn bản” hoặc nhấp đúp để thêm nội <br>
+                        dung và thay đổi phông chữ. Tôi là nơi tuyệt vời để bạn kể một câu <br>
+                        chuyện và cho người dùng biết thêm về bạn.</p>
+                </div>
+                <div class="btn">
+                    <button>Xem game</button>
+                </div>
+            </div>
+        </div>
+        <hr width="100%" style="margin-top:226%;">
+        <div class="review" style="z-index:11 ;">
+            <h1>KEI DASSHU</h1>
+            <h2>NEVER FIGHT ALONE</h2>
+            <p>A new saga begins for one of the most acclaimed video game franchises in history. After narrowly escaping
+                an attack on their <br>
+                village, JD Fenix and his friends, Kait and Del, must rescue the ones they love and discover the source
+                of a monstrous new <br>
+                enemy.
+            </p>
+            <h4>TRAILER</h4>
+            <div style="display: flex; margin-top: 4%;">
+                <div class="review-1">
+                    <!-- <img src="img/review1.jpg" width="520px" alt=""> -->
+                    <!-- <div class="video-container"><iframe width="520px" height="290px" style="  overflow: hidden;" src="img/review1.mp4"></iframe></div>
+                <p></p> -->
+                    <video autoplay controls style="width:520px; height:290px;">
+                        <source src="img/review2.mp4">
+                    </video>
+                    <p>Launch Trailer</p>
+
+                </div>
+                <div class="review-2">
+                    <!-- <img src="img/review1.jpg" width="520px" alt=""> -->
+                    <!-- <div class="video-container"><iframe width="520px" height="290px" style="  overflow: hidden;" src="img/review2.mp4"></iframe></div>
+                <p></p> -->
+                    <video autoplay controls style="width:520px; height:290px;">
+                        <source src="img/review2 (1).mp4">
+                    </video>
+                    <p>Human X Monster Battlefield</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="game">Game Play</h2>
+        <hr class="game" style="margin-left: 0%; margin-top:280%;" width="100%">
+        <br>
+
+    </main>
+    <div class="slider-rps" style="margin-top: -50%;">
+        <div class="slider" id="slider1" style="z-index:2 ;background-color: #010127; ">
+            <!-- Slides -->
+            <div><img src="img/anh1.jpg" alt=""></div>
+            <div><img src="img/anh2.jpg" alt=""></div>
+            <div><img src="img/anh3.jpg" alt=""></div>
+            <div><img src="img/anh4.jpg" alt=""></div>
+            <div><img src="img/anh5.jpg" alt=""></div>
+
+            <!-- The Arrows -->
+            <i class="left" class="arrows" style="z-index:3; position:absolute;">&#8249;</i>
+            <i class="right" class="arrows" style="z-index:3; position:absolute;">&#8250;</i>
+            <!-- Title Bar -->
+            <!-- <span class="titleBar">
+            <h1>This Slider has all default settings.</h1>
+        </span> -->
+            <img class="mo" style="z-index: 2; margin-top:-60px; " src="img/daonguoc.png" alt="">
+            <img class="mo" style="z-index: 2;margin-top: -22px; " src="img/33.webp" alt="">
+            <ul style="z-index: 9; display: flex;">
+
+                <li style="margin-left: -13px;" class="">Horder</li>
+                <li class="">Vs. Multiplayer</li>
+                <li class="">Co-Op</li>
+                <li class="">Yank and Shank</li>
+                <li class="">Vault Kick</li>
+            </ul>
+        </div>
+        <p style="text-align:center ; font-size: 14px; color: #fff;background-color: #010127; font-family: 'kochan'">
+            <br> The vault
+            is a way to traverse cover fluidly while maintaining momentum, allowing you to vault over cover and continue
+            your roadie run. <br><br><br>
+        </p>
+    </div>
+    <hr class="game" style="margin-left: 0%; margin-top:-0.5%;" width="100%">
+    <footer style="background-image: linear-gradient(#020225,#000); width:100% ">
+        <div class="Characters">
+            <h1>Characters</h1>
+            <!-- <img class="s1" src="img/nv1.png" style="z-index: 0;">   -->
+            <!-- <img class="s2" style="margin-top: 62px;z-index: 1; " src="img/daonguoc.png" width="100%" height="10px" alt=""> -->
+            <!-- <div class="font-Characters">
+            <h1>The new</h1>
+        </div> -->
+
+            <div class="tabs effect-1">
+
+                <input type="radio" id="tab-1" name="tab-effect-1" checked="checked">
+                <span>JD Fenix</span><br>
+
+                <input type="radio" id="tab-2" name="tab-effect-1">
+                <span>Del Walker</span>
+
+                <input type="radio" id="tab-3" name="tab-effect-1">
+                <span>Kait Diaz</span>
+
+
+
+                <div class="tab-content">
+                    <section id="tab-item-1" style="margin-top: -280px;">
+                        <img src="img/nv1.png">
+                        <h2>JD Fenix</h2>
+                        <p>JD Fenix is a former lieutenant in the cog who went AWOL with his <br>
+                            comrade and best friend, del, after being caught up in a classified military <br>
+                            “incident.” The son of Marcus Fenix, JD is an idealist who wants to live his <br>
+                            life with purpose. He and del have found sanctuary among outsiders whom <br>
+                            they saved from cog reprisals, and, like them, now reject the oppressive <br>
+                            government they once served</p>
+                    </section>
+                    <section id="tab-item-2" style="margin-top: -280px;">
+                        <img src="img/nv2.png">
+                        <h2>Del Walker</h2>
+                        <p>Del, a former operative in a cog special forces unit, went AWOL with his <br>
+                            comrade and best friend, JD Fenix, after their involvement in a classified <br>
+                            military “incident.” An orphan who befriended JD at boarding school, Del <br>
+                            currently lives in an outsider village, where he and JD have become close <br>
+                            friends with Kait, the daughter of the village leader.</p>
+                    </section>
+                    <section id="tab-item-3" style="margin-top: -280px;">
+                        <img src="img/nv3.png">
+                        <h2>Kait Diaz</h2>
+                        <p>JKait Diaz is an outsider – a group that fervently rejects the dictatorial new <br>
+                            cog that emerged from the ashes of the locust war. Her mother, Reyna, is <br>
+                            the leader of her village. Extremely smart and capable, Kait has extensive <br>
+                            knowledge of living off the land, the geography of the uncharted wilds, and <br>
+                            how best to avoid the omnipresent cog security cameras.
+
+                        </p>
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+        <h2><strong> The new Gears</strong></h2>
+        <img src="img/daonguoc.png" width="100%" height="50px" style="margin-top: 82.7%; opacity: 0;" alt="">
+        <div style="background-image: linear-gradient(#020225,#000);height: 900px;">
+            <h2
+                style="margin-top: -11%; font-size: 40px; margin-left: 0%;color: white;font-family: 'tieude';width:100%;background-image: linear-gradient(#010114,#01010e);">
+                <strong><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp; The Swarm <br><br>
+                    <br></strong>
+            </h2>
+
+
+            <div class="slider1" id="slider2" style="z-index: 99; margin-top: 0%;">
+                <!-- Slides -->
+
+                <div class="hun">
+
+                    <img src="img/s2-1.jpg" alt="">
+                    <figcaption class="hun2">Juvies</figcaption>
+                    <figcaption class="hun22">The juvie is a fast-moving, agile enemy that emerges from swarm <br>
+                        pods. Almost always, juvies attack in groups, and in singularly <br>
+                        unrelenting fashion. You’ll learn to fear their guttural call -- a <br>
+                        telltale sign that reinforcements are incoming.</figcaption>
+                </div>
+                <div class="hun">
+                    <img src="img/s2-2.jpg" alt="">
+                    <figcaption class="hun2">Drones</figcaption>
+                    <figcaption class="hun22">Intelligent, cruel, and unfeeling, the drone is the swarm army's <br>
+                        highly capable foot soldier. Stronger and bigger than humans, but <br>
+                        capable of using the same weapons, drones can turn the tide of <br>
+                        any battle they become part of.</figcaption>
+                </div>
+                <div class="hun">
+                    <img src="img/s2-3.jpg" alt="">
+                    <figcaption class="hun2">Pouncer</figcaption>
+                    <figcaption class="hun22">The Pouncer is deadly at every range. Back away, and its fan-like <br>
+                        tail launches deadly quills. Close the distance, and it pounces <br>
+                        pinning its unsuspecting prey to the ground. This devastating new <br>
+                        enemy is the vicious attack dog of the swarm.</figcaption>
+                </div>
+                <!-- The Arrows -->
+                <i class="left" class="arrows" style="z-index:3; position:absolute;">&#8249;</i>
+                <i class="right" class="arrows" style="z-index:3; position:absolute;">&#8250;</i>
+                <!-- Title Bar -->
+                <span class="titleBar">
+                    <h1 style="font-size: 22px; color: red;opacity: 0.5;">Ancient Beasts ! <br></h1>
+                </span>
+
+            </div>
+
+            <br>
+        </div>
+
+
+    </footer>
+
+    <div style="background-image: url(.//img/bner.jpg); width: 100%; height: 700px; margin-top: -12%;">
+        <div class="font-footer">
+            <h1 class="d1">Get the game</h1>
+            <h2 class="d2">Battle of Braves <a href="" style="font-size: 25px;"><br>
+                    PlayStation |<strong style="color: rgb(162, 25, 25);"> 2023</strong></a></h2>
+            <span class="edition">Keidasshu | 2021 <br> <a href="" style="font-size: 28px;"> Standard Edition</a></span>
+            <span class="edt-1">Included with Xbox Game Pass</span>
+            <span class="edt-2" style="  line-height: 1.5;
+                letter-spacing: 15;">Play Keidasshu | 2021 and over 100 more great games for one low <br>
+                monthly price with Xbox Game Pass.</span>
+            <div class="join-footer">
+                <li><button class="join1">JOIN XBOX GAME PASS<a href="" style="font-size:18px;font-weight:800;">
+                            &#8250;</a></button></li>
+
+                <li><button class="join2">ALREADY A MEMBER <a href="" style="font-size:18px;font-weight:800;">
+                            &#8250;</a></button></li>
+
+                <span class="buy">Buy Download</span>
+            </div>
+            <span class="buy1">A new saga begins for one of the most acclaimed video game <br>
+                fanchises in history.</span>
+            <span class="buy" style="margin-top:37.5%; margin-left:50% ; font-weight: normal;">$19.02</span>
+            <li><button class="buy-now">BUY NOW<a href="" style="font-size:20px;font-weight:800;">
+                        &#8250;</a></button></li>
+        </div>
+    </div>
+    <div id="image-footer" style="margin-top: -7%;">
+        <img src="img/img-footer.jpg" alt="">
+
+    </div>
+
+    <div class="footer-end">
+        <div style="margin-left:6% ;" class="cot">
+            <h1 style="margin-top: -10px;">Educate</h1>
+            <p style="margin-top: 10%;">Providing Life changing Experie <br>
+                Through Education. Class That Fit <br>
+                Your Bush Life. Closer To Home</p>
+            <box-icon style="margin-top: 6.5%;" name='phone-call' type='solid' color='#ffffff'></box-icon>
+            <a class="a" href="" style="font-size: 14px; margin-top: 1.8%;"> &nbsp;0352767274</a><br>
+            <box-icon name='alarm-exclamation' type='solid' color='#ffffff'></box-icon>
+            <a class="a" style="font-size: 14px; margin-top:4px;" href="">&nbsp;Mon- Sat 7.00 - 18.00</a>
+        </div>
+        <div class="cot" style="margin-left: 6%;">
+            <h1 style="margin-top: -10px;">Latest News</h1>
+
+            <h2 style="margin-top: 10%;">Graduate Admissions</h2>
+            <p style="opacity: 0.5; color:#adadad">by Craig MurPhy</p>
+
+            <h2>Graduate Admissions</h2>
+            <p style="opacity: 0.5; color:#adadad">by Craig MurPhy</p>
+
+            <h2>Current Student</h2>
+            <p style="opacity: 0.5; color:#adadad">by Craig MurPhy</p>
+        </div>
+        <div class="cot">
+            <h1 style="margin-top: -10px;">Useful Links</h1>
+            <h2 style="margin-top: 10%;">Popular Courses</h2>
+            <h2 style="margin-top: 5px ;">Forums</h2>
+            <h2 style="margin-top: 5px ;">Our Teacher</h2>
+            <h2 style="margin-top: 5px ;">Upcoming Events</h2>
+            <h2 style="margin-top: 5px ;">Contact Us</h2>
+        </div>
+        <div class="cot">
+            <h1 style="margin-top: -10px;">Flexible learing</h1>
+            <a href="" target="_blank"><img style="margin-top: 11%;" src="img/bando.png" width="80%" alt=""></a>
+        </div>
+        <div class="map-location" style="margin-top: 19%;margin-left: 65%;">
+            <div class="title-local-map">
+
+            </div>
+            <button id="btn-map" onclick="openMap()">
+                <font style="color: white;">Open map</font>
+            </button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

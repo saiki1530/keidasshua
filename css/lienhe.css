@@ -1,0 +1,108 @@
+@font-face {
+    font-family: kochan;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: tieude;
+    src: url(../fonts/CharisSIL-Regular.ttf);
+}
+
+@font-face {
+    font-family: tieude-nghieng;
+    src: url(../fonts/CharisSIL-Italic.ttf);
+}
+
+/* ****************** */
+body {
+    background-color: black;
+}
+
+.name-header>.da {
+    font-size: 44px;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    font-family: 'tieude-nghieng';
+    color: white;
+    text-transform: uppercase;
+}
+
+.name-header>h3 {
+    font-size: 22px;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    font-family: 'kochan';
+    color: white;
+    text-transform: uppercase;
+}
+
+#comp-kpf47s00 svg [data-color="1"] {
+    fill: #F6F3ED;
+}
+
+#comp-kpf47s00 svg [data-color="2"] {
+    fill: #CAFF00;
+}
+
+#comp-kpf47s00 {
+
+    z-index: 1;
+    margin-top: -4.3%;
+}
+.body{
+    display: flex;
+    width: 100%;
+}
+.font-s1 {
+   
+    color: white;
+    margin-left: 8%;
+    margin-top: 8%;
+    line-height: 1.6em;
+    font-size: 15px;
+    letter-spacing: 0em;
+    pointer-events: auto;
+    letter-spacing: 1px;
+}
+.font-s1>p{
+    font-family: 'kochan';
+    margin-top: 2%;
+    
+}
+.font-s1>h3{
+    font-family: 'tieude';
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 700;
+}
+.img-s1{
+  margin-top: 5%;
+  margin-left: 7%;
+}
+.img-s1>img{
+    border: 0px solid #e5e5e5;
+    border-radius: 11px 0px 0px 11px ; 
+}
+.trinhdo{
+    color: white;
+    margin-left: 8%;
+    margin-top: 7%;
+    line-height: 1.6em;
+    font-size: 15px;
+    letter-spacing: 0em;
+    pointer-events: auto;
+    letter-spacing: 1px;
+}
+.trinhdo>h3{
+    font-family: 'tieude';
+    line-height: normal;
+    font-size: 22px;
+    font-weight: 700;
+}
+.trinhdo>p{
+    font-family: 'kochan';
+  margin-top: 2%;
+    
+}
+
+
